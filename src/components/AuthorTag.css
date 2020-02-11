@@ -1,0 +1,23 @@
+a:link{
+    font-family:  helvetica, arial, sans-serif;  
+    font-size: 18px; 
+    color: #000000;    
+}
+
+a:visited {
+    color: lightgreen; 
+}
+
+a:active{
+    color: rgb(255, 158, 2);
+}
+a:hover{
+    color: #ff5050 !important;
+}
+
+a{
+    text-align: center;
+    display: block; 
+    margin: 0 auto;
+}
+

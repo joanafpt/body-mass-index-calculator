@@ -1,0 +1,37 @@
+form {
+  margin: auto; /* isto coloca a meio */
+    padding: 5px;
+    background-color: #FFFFFF;
+   /* display: inline-block;*/
+    display: block;  /* isto coloca a meio */
+    width: 100%;
+    max-width: 340px;
+    border-radius: 3px;
+    border: 1px solid #282c34;
+  }
+ 
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  button {
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    box-shadow: 2px 2px lightgrey;
+    cursor: pointer; 
+  
+  }
+  
+  label{
+      color: #ff5050;
+      font-family:  helvetica, arial, sans-serif;
+      font-size: 18px; 
+  }

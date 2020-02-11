@@ -1,0 +1,86 @@
+.App {
+  text-align: justify;
+  margin: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/*The box-sizing is globally set on every element—including *::before and *::after, to border-box. 
+This ensures that the declared width of element is never exceeded due to padding or border.*/
+
+* {
+  box-sizing: border-box;
+}
+/*
+* {
+  box-sizing: content-box;
+}
+*/
+body {
+  background-image: url("/scale.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  font-family:  helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #FFFFFF;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*font-size: calc(10px + 2vmin);*/
+  font-size: 1rem;
+  color: #282c34;
+ 
+}
+
+h1 {
+ font-family: helvetica, arial, sans-serif;
+ color: #ff5050;
+ text-align: center;
+}
+
+
+p {
+  /*max-width: 600px;*/
+  font-family:  helvetica, arial, sans-serif;
+  font-size: 22px;
+  color: #000000;
+  text-align: center;
+  
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+button:hover {
+  background-color: lightgrey;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+}
+
+/*
+a{
+  color: #ff5050;
+  font-size: 18px; 
+  font-family: helvetica, arial, sans-serif;
+  
+}
+*/

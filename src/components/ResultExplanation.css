@@ -1,0 +1,14 @@
+#display {
+    display: block;  /* isto coloca a meio */
+    margin: auto;  /* isto coloca a meio */
+    background-color: #FFFFFF;
+    padding: 20px;
+    font-size: 20px;
+    color: #282c34;
+    text-align: center;
+    width: 340px;
+    margin-top: 5px;
+    max-width: 100%;
+    border: 1px solid #282c34; 
+  }
+  
